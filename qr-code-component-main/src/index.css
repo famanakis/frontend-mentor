@@ -50,7 +50,7 @@ p {
     background-color: var(--white);
     padding: 1.5em;
     border-radius: 25px;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
 
 .container img {
@@ -90,4 +90,25 @@ p {
 .attribution p {
     font-size: .9375rem;
     margin-bottom: .25em;
+}
+
+@media (min-width: 1600px) {
+    body {
+        background: #ffffff;
+        background-image: url(../design/desktop-preview.jpg);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        margin: 5em auto;
+    }
+    .container-desktop {
+        background-color: var(--lt-gray);
+        box-shadow: 15px 15px 4em hsl(0, 0%, 85%);
+    }
+    .container {
+        margin: 0 auto;
+    }
+    .attribution {
+        bottom: 5%;
+    }
 }
