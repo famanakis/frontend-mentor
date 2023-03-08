@@ -10,15 +10,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
-- [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 This is a simple layout for a QR code. The design is elegantly centered on the page for both mobile and desktop users.
 
 ### Screenshot 
-![](./screenshot.jpg)
+![](https://github.com/famanakis/frontend-mentor/blob/main/qr-code-component-main/src/images/project-screenshot.png)
 
 ### Links
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
