@@ -19,8 +19,7 @@ This is a simple layout for a QR code. The design is elegantly centered on the p
 ![](https://github.com/famanakis/frontend-mentor/blob/main/qr-code-component-main/src/images/project-screenshot.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://9tfdev-fem-qr-code-component.netlify.app/)
+- [Live Site URL](https://9tfdev-fem-qr-code-component.netlify.app/)
 
 ## My process
 I built this using semantic HTML and CSS styling. This was built using a mobile-first approach. I used :root selector for the colors, and Flexbox to center elements on the page. I used absolute positioning in order to have the footer remain at the bottom of the page.
