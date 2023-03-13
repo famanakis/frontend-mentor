@@ -24,16 +24,18 @@ Users are able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+<br>
 
-### Screenshot
-
-![](./screenshot.jpg)
-
+### Screenshots
+#### Mobile View
+<img src="https://github.com/famanakis/frontend-mentor/blob/main/news-homepage/src/assets/images/mobile.png" width="25%"><br>
+#### Mobile Navigation Menu
+<img src="https://github.com/famanakis/frontend-mentor/blob/main/news-homepage/src/assets/images/mobile-nav.png" width="25%"><br>
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://9tfdev-fem-news-homepage.netlify.app/](https://9tfdev-fem-news-homepage.netlify.app/)
 
 ## My process
 Approaching this page from a CSS Flexbox perspective, I found that designing for the mobile view was relatively straightforward due to the content being mostly in a column orientation. However, when working on the media query for the desktop view, I needed to add several div elements to the HTML to manipulate the CSS in the correct row/column directions, particularly in the Hero section of the webpage. With the correct orientation applied to the page in different views, I fine-tuned the padding and margins of the elements using REM and EM units.
@@ -98,5 +100,5 @@ Although I completed this project using CSS Flexbox, I now realize that using CS
 - Website - [Farrah Mamanakis](https://github.com/famanakis)
 - Frontend Mentor - [@famanakis](https://www.frontendmentor.io/profile/famanakis)
 - Twitter - [@FMamanakis](https://twitter.com/FMamanakis)
-
+- LinkedIn - [fmamanakis](https://www.linkedin.com/in/fmamanakis/)
 
