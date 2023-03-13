@@ -43,6 +43,12 @@ a {
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--dk-blue);
+    transition-delay: .25s;
+}
+
+a:hover,
+a:focus {
+    font-weight: 700;
 }
 
 button {
@@ -51,6 +57,12 @@ button {
     font-weight: 700;
     letter-spacing: .25em;
     cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+button:hover,
+button:focus {
+    transform: scale(1.1);
 }
 
 /*Container and Common Styles*/
