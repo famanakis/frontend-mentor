@@ -24,11 +24,13 @@ Users are able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+<br>
 
-### Screenshot
-
-![](./screenshot.jpg)
-
+### Screenshots
+#### Mobile View
+<img src="https://github.com/famanakis/frontend-mentor/blob/main/news-homepage/src/assets/images/mobile.png" width="25%"><br>
+#### Mobile Navigation Menu
+<img src="https://github.com/famanakis/frontend-mentor/blob/main/news-homepage/src/assets/images/mobile-nav.png" width="25%"><br>
 
 ### Links
 
