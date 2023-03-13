@@ -34,7 +34,7 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-news-home-page-using-css-VQ7p0ULwsO](https://www.frontendmentor.io/solutions/responsive-news-home-page-using-css-VQ7p0ULwsO)
 - Live Site URL: [https://9tfdev-fem-news-homepage.netlify.app/](https://9tfdev-fem-news-homepage.netlify.app/)
 
 ## My process
