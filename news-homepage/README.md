@@ -12,16 +12,15 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
-
 ## Overview
+This is a basic news homepage which has navigation for other pages on the site. There is a main section for a feature story, a section for "new" content, and a section for articles.
 
 ### The challenge
 
-Users should be able to:
+Users are able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
@@ -37,45 +36,62 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+Approaching this page from a CSS Flexbox perspective, I found that designing for the mobile view was relatively straightforward due to the content being mostly in a column orientation. However, when working on the media query for the desktop view, I needed to add several div elements to the HTML to manipulate the CSS in the correct row/column directions, particularly in the Hero section of the webpage. With the correct orientation applied to the page in different views, I fine-tuned the padding and margins of the elements using REM and EM units.
+
+After completing the visual aspect of the page, I proceeded to work on its functionality using JavaScript. This involved implementing user control over the navigation hamburger and close buttons that operate the mobile-navigation menu. By clicking on the hamburger, users can open the mobile-navigation menu, and they can also close it with the click of a close button. When users switch from mobile to desktop view, the hamburger image is replaced by a desktop version of the navigation menu.
+
+By making the menu appear different in mobile versus desktop design, the user experience is enhanced and more user-friendly. Overall, I ensured that the page design and functionality were optimized for both mobile and desktop views.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Creating a responsive mobile-navigation menu can be a complex task. In this web page, achieving the correct positioning of the mobile-navigation menu was crucial for the success of the project. I am proud of the code that I developed to position the mobile navigation menu on the right side of the page and ensure it remains fixed even if the user scrolls down.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+Here is the code for styling the mobile navigation menu.
+```css 
+.nav-desktop {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    min-height: 100vh;
+    width: 65vw;
+    background-color: var(--off-white);
+    padding-left: 5%;
+    padding-top: 38%;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+In order to make the mobile-navigation menu show, I used the following JavaScript code for when the user either clicked the hamburger icon:
+
+```JavaScript
+    navMobile.addEventListener('click', ()=> {
+        navDesktop.style.display = "flex"
+    })
+``` 
+
+or clicked the close button icon:
+
+```JavaScript
+    closeMenu.addEventListener('click', () => {
+        navDesktop.style.display = "none"
+    })
 ```
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Although I completed this project using CSS Flexbox, I now realize that using CSS Grid may have been a better option due to the many row and column changes required between the mobile and desktop versions. Going forward, I plan to revisit this design and implement CSS Grid to see how it compares to the Flexbox solution. By doing so, I can determine which approach requires less CSS and is more efficient in achieving the desired design.
 
 ## Author
 
@@ -83,8 +99,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@famanakis](https://www.frontendmentor.io/profile/famanakis)
 - Twitter - [@FMamanakis](https://twitter.com/FMamanakis)
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
