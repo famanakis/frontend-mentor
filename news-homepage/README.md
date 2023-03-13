@@ -100,5 +100,5 @@ Although I completed this project using CSS Flexbox, I now realize that using CS
 - Website - [Farrah Mamanakis](https://github.com/famanakis)
 - Frontend Mentor - [@famanakis](https://www.frontendmentor.io/profile/famanakis)
 - Twitter - [@FMamanakis](https://twitter.com/FMamanakis)
-
+- LinkedIn - [fmamanakis](https://www.linkedin.com/in/fmamanakis/)
 
