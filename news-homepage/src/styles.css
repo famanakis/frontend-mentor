@@ -7,7 +7,7 @@
 /*Typography*/
 
 
-/*Common Styles*/
+/*Container and Common Styles*/
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -18,16 +18,43 @@
     flex-direction: column;
 }
 
+body {
+    min-width: 375px;
+    margin: 0 5%;
+}
+
+.container {
+    justify-content: center;
+}
+
 /*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8em;
+}
+
+.header-logo {
+    width: 15%;
+}
+
+.nav-mobile {
+    width: 12%;
+}
+
 .nav-desktop {
     display: none;
 }
 
-
-
 /*Hero*/
+.hero-img {
+    width: 100%;
+}
 
-
+.hero h1 {
+    font-size: 2rem;
+}
 
 /*New-Content*/
 
