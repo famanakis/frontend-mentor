@@ -33,7 +33,7 @@ Users are able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://9tfdev-fem-news-homepage.netlify.app/]
+- Live Site URL: [https://9tfdev-fem-news-homepage.netlify.app/](https://9tfdev-fem-news-homepage.netlify.app/)
 
 ## My process
 Approaching this page from a CSS Flexbox perspective, I found that designing for the mobile view was relatively straightforward due to the content being mostly in a column orientation. However, when working on the media query for the desktop view, I needed to add several div elements to the HTML to manipulate the CSS in the correct row/column directions, particularly in the Hero section of the webpage. With the correct orientation applied to the page in different views, I fine-tuned the padding and margins of the elements using REM and EM units.
