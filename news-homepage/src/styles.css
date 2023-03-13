@@ -278,7 +278,6 @@ footer a {
     .desktop-hero-flex-col {
         display: flex;
         flex-direction: column;
-        /* width: 75%; */
     }
 
     .btn-read-more {
