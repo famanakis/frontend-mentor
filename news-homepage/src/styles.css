@@ -268,7 +268,7 @@ footer a {
     .hero-image {
         background-image: url("./assets/images/image-web-3-desktop.jpg");
         background-size: cover;
-        height: 25vh;
+        height: 50%;
         margin-bottom: 3em;
     }
 
